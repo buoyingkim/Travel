@@ -1,0 +1,173 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 3rem;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    font-size: clamp(16px, 2vw, 18px);
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+h1,
+body {
+  font-family: Pretendard;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: .0125em;
+    word-spacing: .0125em;
+    line-height: 1.5;
+    word-break: keep-all;
+    cursor: default;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+h1 {
+  display: block;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  font-size: clamp(.1rem, 5vw, 10rem);
+  font-weight: 900;
+  /* background-color: aquamarine; */
+}
+
+.article-title {
+  position: relative;
+  padding: 10rem 0;
+  /* background-color: blueviolet; */
+}
+
+.title {
+  position: relative;
+  padding: 5rem 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+
+.card {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: aquamarine;
+    aspect-ratio: 1/1;
+}
+
+.card-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: clamp(.1rem, 3.5vw, 10rem);
+  /* background-color: aqua; */
+}
+
+.upcoming {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  background-color: #000000B3;
+}
+
+.header {
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+}
